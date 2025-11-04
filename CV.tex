@@ -1,0 +1,109 @@
+%-------------------------
+% This is a edited version of:
+% Rover Resume - Office Template
+% Link: https://github.com/subidit/rover-resume
+%------------------------
+
+\documentclass{article}
+
+\usepackage{fontspec}
+
+\setmainfont[
+    Path = ./fonts/, % falls Fonts im ./fonts/ liegen
+    BoldFont = NunitoSans-SemiBold.ttf,
+    ItalicFont = NunitoSans-Italic.ttf
+]{NunitoSans-Regular.ttf}
+
+\usepackage{geometry}
+\geometry{a4paper,margin=0.8in,top=0.5in,bottom=0.5in}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{fontawesome5}
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=*,label=\faCaretRight,itemsep=0pt}
+\usepackage{xcolor}
+\definecolor{background}{HTML}{0D47A1}
+\usepackage[explicit]{titlesec}
+\titleformat{\section}{\large\bfseries\color{white}}{}{}{\colorbox{background}{#1}}
+\titleformat{\subsubsection}{\large\itshape}{}{}{#1}
+\titlespacing{\subsection}{0pt}{*3}{*0.5}
+\titlespacing{\subsubsection}{0pt}{*0}{*0.5}
+
+\newcommand{\rside}[1]{\hfill \normalfont\scshape{#1}}
+
+\usepackage[bookmarks=false,hidelinks]{hyperref}
+
+\begin{document}
+
+\begin{center}
+  \begin{minipage}{0.45\textwidth}
+    {\Huge\bfseries Max Mustermann}
+  \end{minipage}\hfill
+  \begin{minipage}{0.3\textwidth}
+    \faPhone*\ 0123 4567898 \\
+    \href{mailto:Max.Mustermann@net.de}{\faEnvelope\ Max.Mustermann@net.de} \\
+    \faMapMarker*{ Mustestadt, Hessen} % Address/location
+    %\href{https://linkedin.com}{\faLinkedin\ /dwight\_schrute}
+  \end{minipage}
+  \begin{minipage}{0.2\textwidth}
+    \includegraphics[width=\linewidth]{CV-Files/dwight.png}
+  \end{minipage}
+\end{center}
+
+
+
+\section{\faFlask\enspace Bildungsweg}
+%==========
+
+\subsection{Schrute Farms (Bed and Breakfast)}
+\begin{itemize}
+	\item A beautiful resort that provides fun activites like tablemaking and mattress making.
+\end{itemize}
+
+\subsection{Dwight Schrute’s Gym for Muscles}
+\begin{itemize}
+	\item A built-in gym inside the Dunder Mifflin office complex that will buy your tin for 5 cents a yard.
+\end{itemize}
+
+\subsection{Sesame Avenue Daycare Center for Infants and Toddlers}
+\begin{itemize}
+	\item A great daycare for infants with a focus on cognitive development.
+\end{itemize}
+
+
+
+
+\section{\faFlask\enspace Arbeitserfahrung}
+%==========
+
+\subsection{Schrute Farms (Bed and Breakfast)}
+\begin{itemize}
+	\item A beautiful resort that provides fun activites like tablemaking and mattress making.
+\end{itemize}
+
+\subsection{Dwight Schrute’s Gym for Muscles}
+\begin{itemize}
+	\item A built-in gym inside the Dunder Mifflin office complex that will buy your tin for 5 cents a yard.
+\end{itemize}
+
+\subsection{Sesame Avenue Daycare Center for Infants and Toddlers}
+\begin{itemize}
+	\item A great daycare for infants with a focus on cognitive development.
+\end{itemize}
+
+
+
+
+
+\section{\faFlask\enspace Skills}
+%==========
+\begin{description}
+  \item[Sprachen] Englisch und Deutsch in Wort und Schrift
+  \item[Talente] teamfähig, pünktlich, höflich
+  \item[IT] Word, Excel, Vim
+\end{description}
+
+\end{document}
+

@@ -1,0 +1,58 @@
+\documentclass[10pt, a4paper]{article}
+
+\input{cover-letter-themes/theme_selection}
+
+%----------------------------------------------------------------------------------------
+%	 THEMES
+%----------------------------------------------------------------------------------------
+
+% Define the desired theme out of the following: beige, blue, bw, coral, earth, framed, gray, minimal, onyx, plain
+% See screenshots in preview/ directory
+\theme{gray}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need a particular field, just remove the content leaving the command, e.g. \jobtitle{}
+
+\name{Max Mustermann} % Your name
+\jobtitle{Farmer} % Job title/career
+\location{Musterstadt, Hessen} % Address/location
+\phone{0123 456789} % Phone number
+\mail{Max.Mustermann@net.de} % Mail
+\employerinfo{Test GmbH \\
+Am Testweg 10, \\
+54321 Teststadt, \\
+info@test.io} % Contact information of the employer. Make sure to end every row with "\\"
+\usepackage[ngerman]{babel}
+\begin{document}
+\makeprofile % Print name & job description
+
+\makecontact % Print defined contact information
+
+{\raggedleft \today \par}
+
+\makeemployerinfo % Print employer contact information
+
+%Greeting
+Sehr geehrte Damen und Herren,\\
+
+lorum ipsum .....
+
+\begin{itemize}
+    \item Item 1
+    \item Item 2
+    \item Item 3
+    \item Item 4
+\end{itemize}
+
+Ihre Firma überzeugt mich durch ihre innovativen Produkte und ich würde Sie gerne in einem persönlichen Gespräch von meiner Motivation und meinen Fähigkeiten überzeugen.\\
+
+\letterspace
+
+Mit freundlichen Grüßen,
+
+Max Mustermann
+
+\end{document}
